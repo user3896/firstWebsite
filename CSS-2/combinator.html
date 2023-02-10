@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>combinator</title>
+    <style>
+      /* div p {
+        background-color: red;
+      } 
+      div etiketinni altındaki bütün hepsini seçti*/
+      /* div > p {
+        background-color: red;
+      } bu ise divin bir altındaki elementleri seçti */
+      /* div + p {
+        background-color: red;
+      } dicden sonra gelen ilk etiket için */
+      div ~ p {
+        background-color: red;
+      } /* divden sonra gelen hepsini işaretler*/
+    </style>
+  </head>
+  <body>
+    <p>1. paragraf</p>
+    <div>
+      <p>2. paragraf</p>
+      <p>3. paragraf</p>
+      <section>
+        <p>ara lamel</p>
+      </section>
+    </div>
+    <p>4. paragaraf</p>
+    <p>5. paragareaf</p>
+  </body>
+</html>
